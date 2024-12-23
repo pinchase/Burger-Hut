@@ -1,0 +1,678 @@
+/* Reset some basic elements for better styling */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: #1a1a1a;
+    
+    
+}
+/* Basic body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #A8763E;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+header .logo {
+    
+    width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url('default_a_vibrant_burger_hut_logo_digitally_crafted_in_a_styli_2_9bff4a50-86de-4b7b-8240-bb0df6c3c084.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  cursor: pointer;
+    /* font-weight: bold;
+    font-family: Verdana,Tahoma, sans-serif;
+    color: #ff6347; Tomato color */
+}
+
+/* Navigation menu styling */
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: color 0.3s ease;
+    font-size: 1.2rem;
+    
+}
+
+header nav ul li a:hover {
+    color: #3df007; /* Tomato color */
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
+/* Call to action button styling */
+header nav ul li .cta {
+    padding: 0.5rem 1rem;
+    background-color: #6F1A07; /* Tomato color */
+    color: #f5f5f5;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li .cta:hover {
+    background-color: #0cb3f5;
+    color: black; /* Darker tomato color */
+}
+
+
+    
+
+/* Reset CSS for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('Default_Vibrant_juicy_burgers_on_a_wooden_platter_against_a_wa_1.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #6F1A07;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #6F1A07;
+}
+/* Reset CSS for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Featured Burgers Section Styles */
+.featured-burgers {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #0D1010;
+}
+
+.featured-burgers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.burger-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.burger-card {
+    background-color: #6F1A07;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.burger-card:hover {
+    transform: translateY(-10px);
+}
+
+.burger-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.burger-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.burger-card p {
+    font-size: 1rem;
+    padding: 0 15px 15px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #281E16;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: burlywood;
+}
+
+/* Special Offers Section Styles */
+.special-offers {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #6F1A07;
+}
+
+.special-offers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.offer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #281E16;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.offer:hover {
+    transform: translateY(-10px);
+}
+
+.offer img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.offer-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.offer-details h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.offer-details p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+/* About Us Section Styles */
+.about-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #DD1C1A;
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.about-images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.about-images img:hover {
+    transform: scale(1.05);
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #09ebf3;
+    margin-top: 20px;
+}
+/* Customer Reviews Section Styles */
+.reviews {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #0D1010;
+}
+
+.reviews h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.review-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.review {
+    background-color: #A8763E;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.review:hover {
+    transform: translateY(-10px);
+}
+
+.review p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.review cite {
+    display: block;
+    font-size: 1rem;
+    color: #0fe6f5;
+    text-align: right;
+}
+/* Location and Hours Section Styles */
+.location-hours {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #6F1A07;
+}
+
+.location-hours h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.location-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.map {
+    width: 100%;
+    max-width: 600px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contact-info {
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+    background-color: #A8763E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-info p,
+.contact-info ul {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact-info strong {
+    color: #ff6347;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info ul li {
+    margin-bottom: 5px;
+}
+/* Social Media Feed Section Styles */
+.social-media {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+
+.social-media h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.social-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-post {
+    background-color: #717744;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+    text-align: left;
+}
+
+.social-post:hover {
+    transform: translateY(-10px);
+}
+
+.social-post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.social-post p {
+    padding: 15px;
+    font-size: 1rem;
+    color: #490a02;
+}
+/* Newsletter Signup Section Styles */
+.newsletter {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #A8763E;
+}
+
+.newsletter h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.signup-form input[type="email"] {
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.signup-form button {
+    padding: 15px 30px;
+    background-color: #ff6347;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-form button:hover {
+    background-color: #6F1A07;
+}
+/* Footer Section Styles */
+.footer {
+    background-color: #4E598C;
+    padding: 50px 20px;
+    overflow: hidden; /* Ensures child elements respect padding */
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.footer-logo img:hover {
+    transform: scale(1.1); /* Enlarge logo on hover */
+}
+
+.footer-logo p {
+    font-size: 1rem;
+    max-width: 250px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-links ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #373D20;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.footer-links ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.footer-contact p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-contact ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.footer-contact ul li:hover {
+    transform: translateX(5px); /* Slide slightly to the right on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 1s forwards; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .burger-card {
+        width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo, .footer-links, .footer-contact {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .featured-burgers h2 {
+        font-size: 2rem;
+    }
+
+    .burger-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .burger-card p {
+        font-size: 0.9rem;
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+}
